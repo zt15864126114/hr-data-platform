@@ -40,7 +40,7 @@ const AppHeader: React.FC = () => {
         letterSpacing: 2
       }}>
         <span role="img" aria-label="logo" style={{ fontSize: 32, marginRight: 10 }}>📊</span>
-        人力资源大数据分析平台
+        大数据分析平台
       </div>
       <Menu mode="horizontal" style={{ border: 'none' }} items={menuItems} />
     </Header>
