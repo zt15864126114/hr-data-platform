@@ -177,7 +177,7 @@ const SmartSearch: React.FC = () => {
   ];
 
   useEffect(() => {
-    setData(mockData); // 页面加载时直接显示所有数据
+    setData(mockData);
   }, []);
 
   const onFinish = (values: any) => {

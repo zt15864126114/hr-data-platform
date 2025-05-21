@@ -1,6 +1,6 @@
 import React from 'react';
 import { Card, Row, Col, Statistic, Progress, Table, Tabs } from 'antd';
-import { UserOutlined, TeamOutlined, BankOutlined, TrophyOutlined, RiseOutlined, FallOutlined, AlertOutlined, SolutionOutlined } from '@ant-design/icons';
+import { UserOutlined, TeamOutlined, BankOutlined, TrophyOutlined, AlertOutlined, SolutionOutlined } from '@ant-design/icons';
 import ReactECharts from 'echarts-for-react';
 
 const Dashboard: React.FC = () => {

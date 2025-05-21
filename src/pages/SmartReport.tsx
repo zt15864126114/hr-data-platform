@@ -1,6 +1,6 @@
-import React, { useState, useEffect, useRef } from 'react';
-import { Card, Row, Col, Button, Select, DatePicker, Table, Space, Typography, Divider, message, Spin, Alert } from 'antd';
-import { DownloadOutlined, FileTextOutlined, BarChartOutlined, LineChartOutlined, PieChartOutlined } from '@ant-design/icons';
+import React, { useState, useRef } from 'react';
+import { Card, Row, Col, Button, Select, DatePicker, Typography, Divider, message, Spin, Alert, Space } from 'antd';
+import { DownloadOutlined, FileTextOutlined } from '@ant-design/icons';
 import ReactECharts from 'echarts-for-react';
 import dayjs from 'dayjs';
 import html2canvas from 'html2canvas';

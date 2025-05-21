@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Card, Row, Col, Descriptions, Tabs, Statistic, Progress, Table, Input, Select, Space, Button, Modal } from 'antd';
-import { UserOutlined, TeamOutlined, BankOutlined, TrophyOutlined, SearchOutlined, EyeOutlined } from '@ant-design/icons';
+import { UserOutlined, TeamOutlined, TrophyOutlined, EyeOutlined } from '@ant-design/icons';
 import ReactECharts from 'echarts-for-react';
 
 const { TabPane } = Tabs;
