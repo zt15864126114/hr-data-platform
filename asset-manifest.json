@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.c1327c3e.css",
-    "main.js": "/static/js/main.b27be052.js",
-    "static/js/213.e9d14e8e.chunk.js": "/static/js/213.e9d14e8e.chunk.js",
-    "static/js/667.34159ad6.chunk.js": "/static/js/667.34159ad6.chunk.js",
-    "index.html": "/index.html",
-    "main.c1327c3e.css.map": "/static/css/main.c1327c3e.css.map",
-    "main.b27be052.js.map": "/static/js/main.b27be052.js.map",
-    "213.e9d14e8e.chunk.js.map": "/static/js/213.e9d14e8e.chunk.js.map",
-    "667.34159ad6.chunk.js.map": "/static/js/667.34159ad6.chunk.js.map"
+    "main.css": "/hr-data-platform/static/css/main.c1327c3e.css",
+    "main.js": "/hr-data-platform/static/js/main.a992c36a.js",
+    "static/js/213.e9d14e8e.chunk.js": "/hr-data-platform/static/js/213.e9d14e8e.chunk.js",
+    "static/js/667.34159ad6.chunk.js": "/hr-data-platform/static/js/667.34159ad6.chunk.js",
+    "index.html": "/hr-data-platform/index.html",
+    "main.c1327c3e.css.map": "/hr-data-platform/static/css/main.c1327c3e.css.map",
+    "main.a992c36a.js.map": "/hr-data-platform/static/js/main.a992c36a.js.map",
+    "213.e9d14e8e.chunk.js.map": "/hr-data-platform/static/js/213.e9d14e8e.chunk.js.map",
+    "667.34159ad6.chunk.js.map": "/hr-data-platform/static/js/667.34159ad6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c1327c3e.css",
-    "static/js/main.b27be052.js"
+    "static/js/main.a992c36a.js"
   ]
 }
