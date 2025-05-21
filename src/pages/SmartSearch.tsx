@@ -176,6 +176,7 @@ const SmartSearch: React.FC = () => {
     { key: '50', name: '田伟', idCard: '370882199050505123', gender: '男', age: 30, education: '硕士', employmentStatus: '已就业', insuranceStatus: '已参保', company: '兖州区济宁智慧城市发展有限公司', position: '运营助理', industry: '互联网', lastUpdateTime: '2024-01-25 11:30:00' },
   ];
 
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   useEffect(() => {
     setData(mockData);
   }, []);
