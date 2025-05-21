@@ -24,8 +24,22 @@ const AppHeader: React.FC = () => {
   ];
 
   return (
-    <Header style={{ background: '#fff', padding: '0 24px', display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
-      <div className="logo" style={{ fontSize: '20px', fontWeight: 'bold' }}>
+    <Header style={{
+      background: '#fff',
+      padding: '0 24px',
+      display: 'flex',
+      justifyContent: 'space-between',
+      alignItems: 'center'
+    }}>
+      <div style={{
+        display: 'flex',
+        alignItems: 'center',
+        fontSize: 24,
+        fontWeight: 'bold',
+        color: '#1890ff',
+        letterSpacing: 2
+      }}>
+        <span role="img" aria-label="logo" style={{ fontSize: 32, marginRight: 10 }}>📊</span>
         人力资源大数据分析平台
       </div>
       <Menu mode="horizontal" style={{ border: 'none' }} items={menuItems} />

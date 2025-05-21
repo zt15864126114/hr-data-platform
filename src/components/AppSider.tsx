@@ -38,14 +38,39 @@ const AppSider: React.FC = () => {
   ];
 
   return (
-    <Sider width={200} style={{ background: '#fff' }}>
+    <Sider
+      width={220}
+      style={{
+        background: 'linear-gradient(180deg, #f0f5ff 0%, #fff 100%)',
+        boxShadow: '2px 0 8px #f0f1f2',
+        minHeight: '100vh',
+        paddingTop: 24,
+      }}
+    >
       <Menu
         mode="inline"
         selectedKeys={[location.pathname]}
-        style={{ height: '100%', borderRight: 0 }}
+        style={{
+          height: '100%',
+          borderRight: 0,
+          background: 'transparent',
+          fontSize: 16,
+          fontWeight: 500,
+        }}
         items={menuItems}
         onClick={({ key }) => navigate(key)}
       />
+      <style>{`
+        .ant-menu-item-selected {
+          background: #e6f7ff !important;
+          border-radius: 8px !important;
+          color: #1890ff !important;
+        }
+        .ant-menu-item:hover {
+          background: #f0f5ff !important;
+          border-radius: 8px !important;
+        }
+      `}</style>
     </Sider>
   );
 };
