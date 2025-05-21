@@ -6,6 +6,8 @@ import {
   SearchOutlined,
   BarChartOutlined,
   UserOutlined,
+  AlertOutlined,
+  BellOutlined,
 } from '@ant-design/icons';
 
 const { Sider } = Layout;
@@ -21,6 +23,16 @@ const AppSider: React.FC = () => {
       label: '数据概览',
     },
     {
+      key: '/data-manage',
+      icon: <UserOutlined />,
+      label: '数据维护',
+    },
+    {
+      key: '/audit-center',
+      icon: <BarChartOutlined />,
+      label: '审核中心',
+    },
+    {
       key: '/search',
       icon: <SearchOutlined />,
       label: '智能检索',
@@ -34,6 +46,21 @@ const AppSider: React.FC = () => {
       key: '/profile',
       icon: <UserOutlined />,
       label: '人员画像',
+    },
+    {
+      key: '/log-center',
+      icon: <UserOutlined />,
+      label: '操作日志',
+    },
+    {
+      key: '/alert-center',
+      icon: <AlertOutlined />,
+      label: '预警中心',
+    },
+    {
+      key: '/message-center',
+      icon: <BellOutlined />,
+      label: '消息中心',
     },
   ];
 
