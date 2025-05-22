@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/hr-data-platform/static/css/main.c1327c3e.css",
-    "main.js": "/hr-data-platform/static/js/main.aa977e31.js",
+    "main.js": "/hr-data-platform/static/js/main.c91f727e.js",
     "static/js/213.e9d14e8e.chunk.js": "/hr-data-platform/static/js/213.e9d14e8e.chunk.js",
     "static/js/667.34159ad6.chunk.js": "/hr-data-platform/static/js/667.34159ad6.chunk.js",
     "index.html": "/hr-data-platform/index.html",
     "main.c1327c3e.css.map": "/hr-data-platform/static/css/main.c1327c3e.css.map",
-    "main.aa977e31.js.map": "/hr-data-platform/static/js/main.aa977e31.js.map",
+    "main.c91f727e.js.map": "/hr-data-platform/static/js/main.c91f727e.js.map",
     "213.e9d14e8e.chunk.js.map": "/hr-data-platform/static/js/213.e9d14e8e.chunk.js.map",
     "667.34159ad6.chunk.js.map": "/hr-data-platform/static/js/667.34159ad6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c1327c3e.css",
-    "static/js/main.aa977e31.js"
+    "static/js/main.c91f727e.js"
   ]
 }
