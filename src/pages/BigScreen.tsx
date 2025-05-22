@@ -58,7 +58,7 @@ const indicatorStyle = {
 const BigScreen: React.FC = () => {
   const navigate = useNavigate();
   const [now, setNow] = useState(new Date());
-  const [updateTime, setUpdateTime] = useState(new Date());
+  const [updateTime] = useState(new Date());
   const [hoveredCard, setHoveredCard] = useState<string | null>(null);
   const [hoveredMonitor, setHoveredMonitor] = useState<number | null>(null);
   const [isLoaded, setIsLoaded] = useState(false);
