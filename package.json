@@ -21,6 +21,7 @@
     "html2canvas": "^1.4.1",
     "jspdf": "^2.5.2",
     "react": "^18.2.0",
+    "react-countup": "^6.5.3",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.8.0",
     "react-scripts": "5.0.1",
@@ -53,6 +54,7 @@
     ]
   },
   "devDependencies": {
+    "@types/react-countup": "^4.3.1",
     "@types/xlsx": "^0.0.36"
   }
 }

@@ -94,7 +94,7 @@ const Dashboard: React.FC = () => {
   const employmentTrendData = {
     xAxis: {
       type: 'category',
-      data: ['2023Q1', '2023Q2', '2023Q3', '2023Q4', '2024Q1'],
+      data: ['2023Q1', '2023Q2', '2023Q3', '2023Q4', '2025Q1'],
     },
     yAxis: {
       type: 'value',

@@ -23,6 +23,11 @@ const AppSider: React.FC = () => {
       label: '数据概览',
     },
     {
+      key: '/big-screen',
+      icon: <BarChartOutlined />,
+      label: '数字大屏',
+    },
+    {
       key: '/data-manage',
       icon: <UserOutlined />,
       label: '数据维护',
@@ -62,6 +67,7 @@ const AppSider: React.FC = () => {
       icon: <BellOutlined />,
       label: '消息中心',
     },
+
   ];
 
   return (

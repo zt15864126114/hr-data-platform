@@ -20,8 +20,8 @@ const mockData: AuditRecord[] = [
     gender: '男',
     age: 35,
     education: '本科',
-    submitTime: '2024-03-20 10:30:00',
-    submitter: '管理员A',
+    submitTime: '2025-03-20 10:30:00',
+    submitter: '李明',
     type: '新增'
   },
   {
@@ -30,8 +30,8 @@ const mockData: AuditRecord[] = [
     gender: '女',
     age: 28,
     education: '硕士',
-    submitTime: '2024-03-20 11:15:00',
-    submitter: '管理员B',
+    submitTime: '2025-03-20 11:15:00',
+    submitter: '王伟',
     type: '修改'
   },
   {
@@ -40,8 +40,8 @@ const mockData: AuditRecord[] = [
     gender: '女',
     age: 42,
     education: '博士',
-    submitTime: '2024-03-20 14:20:00',
-    submitter: '管理员C',
+    submitTime: '2025-03-20 14:20:00',
+    submitter: '张敏',
     type: '删除'
   },
   {
@@ -50,8 +50,8 @@ const mockData: AuditRecord[] = [
     gender: '男',
     age: 31,
     education: '本科',
-    submitTime: '2024-03-20 15:45:00',
-    submitter: '管理员D',
+    submitTime: '2025-03-20 15:45:00',
+    submitter: '赵磊',
     type: '新增'
   },
   {
@@ -60,8 +60,8 @@ const mockData: AuditRecord[] = [
     gender: '女',
     age: 26,
     education: '硕士',
-    submitTime: '2024-03-20 16:30:00',
-    submitter: '管理员A',
+    submitTime: '2025-03-20 16:30:00',
+    submitter: '孙丽',
     type: '修改'
   },
   {
@@ -70,8 +70,8 @@ const mockData: AuditRecord[] = [
     gender: '男',
     age: 39,
     education: '本科',
-    submitTime: '2024-03-20 17:15:00',
-    submitter: '管理员B',
+    submitTime: '2025-03-20 17:15:00',
+    submitter: '周强',
     type: '新增'
   },
   {
@@ -80,8 +80,8 @@ const mockData: AuditRecord[] = [
     gender: '女',
     age: 33,
     education: '硕士',
-    submitTime: '2024-03-20 18:00:00',
-    submitter: '管理员C',
+    submitTime: '2025-03-20 18:00:00',
+    submitter: '吴婷',
     type: '修改'
   },
   {
@@ -90,8 +90,8 @@ const mockData: AuditRecord[] = [
     gender: '男',
     age: 45,
     education: '博士',
-    submitTime: '2024-03-20 19:30:00',
-    submitter: '管理员D',
+    submitTime: '2025-03-20 19:30:00',
+    submitter: '郑阳',
     type: '删除'
   },
   {
@@ -100,8 +100,8 @@ const mockData: AuditRecord[] = [
     gender: '女',
     age: 29,
     education: '本科',
-    submitTime: '2024-03-20 20:15:00',
-    submitter: '管理员A',
+    submitTime: '2025-03-20 20:15:00',
+    submitter: '马超',
     type: '新增'
   },
   {
@@ -110,8 +110,8 @@ const mockData: AuditRecord[] = [
     gender: '男',
     age: 36,
     education: '硕士',
-    submitTime: '2024-03-20 21:00:00',
-    submitter: '管理员B',
+    submitTime: '2025-03-20 21:00:00',
+    submitter: '黄娟',
     type: '修改'
   },
   {
@@ -120,8 +120,8 @@ const mockData: AuditRecord[] = [
     gender: '男',
     age: 32,
     education: '本科',
-    submitTime: '2024-03-20 22:30:00',
-    submitter: '管理员C',
+    submitTime: '2025-03-20 22:30:00',
+    submitter: '徐强',
     type: '新增'
   },
   {
@@ -130,8 +130,8 @@ const mockData: AuditRecord[] = [
     gender: '女',
     age: 27,
     education: '硕士',
-    submitTime: '2024-03-20 23:15:00',
-    submitter: '管理员D',
+    submitTime: '2025-03-20 23:15:00',
+    submitter: '朱琳',
     type: '修改'
   },
   {
@@ -140,8 +140,8 @@ const mockData: AuditRecord[] = [
     gender: '男',
     age: 41,
     education: '博士',
-    submitTime: '2024-03-21 09:00:00',
-    submitter: '管理员A',
+    submitTime: '2025-03-21 09:00:00',
+    submitter: '胡明',
     type: '删除'
   },
   {
@@ -150,8 +150,8 @@ const mockData: AuditRecord[] = [
     gender: '女',
     age: 30,
     education: '本科',
-    submitTime: '2024-03-21 09:45:00',
-    submitter: '管理员B',
+    submitTime: '2025-03-21 09:45:00',
+    submitter: '李娜',
     type: '新增'
   },
   {
@@ -160,8 +160,8 @@ const mockData: AuditRecord[] = [
     gender: '男',
     age: 37,
     education: '硕士',
-    submitTime: '2024-03-21 10:30:00',
-    submitter: '管理员C',
+    submitTime: '2025-03-21 10:30:00',
+    submitter: '陈静',
     type: '修改'
   }
 ];

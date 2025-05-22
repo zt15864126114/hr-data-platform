@@ -10,12 +10,12 @@ interface AlertItem {
 }
 
 const defaultAlerts: AlertItem[] = [
-  { id: '1', time: '2024-05-21 09:10:00', type: '失业率预警', content: '当前失业率为6.2%，已超过5%的预警阈值！', read: false },
-  { id: '2', time: '2024-05-21 09:20:00', type: '参保率预警', content: '当前参保率为88%，低于90%的预警阈值！', read: false },
-  { id: '3', time: '2024-05-21 10:00:00', type: '数据异常', content: '检测到企业数据批量异常变动，请核查！', read: true },
-  { id: '4', time: '2024-05-21 10:30:00', type: '系统安全', content: '有用户多次登录失败，存在安全风险！', read: false },
-  { id: '5', time: '2024-05-21 11:00:00', type: '岗位缺口预警', content: '制造业岗位缺口超过500人，请关注招聘进展。', read: true },
-  { id: '6', time: '2024-05-21 11:30:00', type: '培训完成率预警', content: '本月技能培训完成率低于80%，请加强培训管理。', read: false },
+  { id: '1', time: '2025-05-21 09:10:00', type: '失业率预警', content: '当前失业率为6.2%，已超过5%的预警阈值！', read: false },
+  { id: '2', time: '2025-05-21 09:20:00', type: '参保率预警', content: '当前参保率为88%，低于90%的预警阈值！', read: false },
+  { id: '3', time: '2025-05-21 10:00:00', type: '数据异常', content: '检测到企业数据批量异常变动，请核查！', read: true },
+  { id: '4', time: '2025-05-21 10:30:00', type: '系统安全', content: '有用户多次登录失败，存在安全风险！', read: false },
+  { id: '5', time: '2025-05-21 11:00:00', type: '岗位缺口预警', content: '制造业岗位缺口超过500人，请关注招聘进展。', read: true },
+  { id: '6', time: '2025-05-21 11:30:00', type: '培训完成率预警', content: '本月技能培训完成率低于80%，请加强培训管理。', read: false },
 ];
 
 const AlertCenter: React.FC = () => {
