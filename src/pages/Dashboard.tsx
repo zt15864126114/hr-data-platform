@@ -171,6 +171,17 @@ const Dashboard: React.FC = () => {
 
   return (
     <div>
+      <div style={{
+        fontSize: 32,
+        fontWeight: 900,
+        color: '#3f8efc',
+        textAlign: 'center',
+        marginBottom: 32,
+        letterSpacing: 2,
+        textShadow: '0 0 16px #3f8efc55, 0 0 32px #3f8efc22',
+      }}>
+        济宁市兖州区人力资源和社会保障局大数据分析平台
+      </div>
       <Tabs defaultActiveKey="1">
         <Tabs.TabPane tab="劳动力资源总体分析" key="1">
           <Row gutter={[16, 16]}>
