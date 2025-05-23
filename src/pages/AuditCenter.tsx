@@ -160,7 +160,7 @@ const mockData: AuditRecord[] = [
     gender: '男',
     age: 37,
     education: '硕士',
-    submitTime: '2025-03-21 10:30:00',
+    submitTime: '2025-05-21 10:30:00',
     submitter: '陈静',
     type: '修改'
   }
